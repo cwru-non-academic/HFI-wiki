@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkneuroreality_edu_github_io=self.webpackChunkneuroreality_edu_github_io||[]).push([[334],{1794:e=>{e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/facebook","name":"facebook","count":1,"permalink":"/blog/tags/facebook"}')}}]);
