@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://neuroreality-edu.github.io',
-  baseUrl: '/',
+  url: 'https://cwru-non-academic.github.io/',
+  baseUrl: '/neuroreality-edu/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'cwru-non-academic', // Usually your GitHub org/user name.
-  projectName: 'neuroreality-edu.github.io', // Usually your repo name.
+  projectName: 'neuroreality-edu', // Usually your repo name.
 
   presets: [
     [
