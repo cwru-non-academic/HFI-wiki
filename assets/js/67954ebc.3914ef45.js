@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkneuroreality_edu_github_io=self.webpackChunkneuroreality_edu_github_io||[]).push([[684],{3575:u=>{u.exports=JSON.parse('{"allTagsPath":"/neuroreality-edu/blog/tags","slug":"/neuroreality-edu/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/neuroreality-edu/blog/tags/docusaurus"}')}}]);
