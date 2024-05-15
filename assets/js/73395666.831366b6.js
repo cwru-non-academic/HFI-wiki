@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkneuroreality_edu_github_io=self.webpackChunkneuroreality_edu_github_io||[]).push([[460],{4144:e=>{e.exports=JSON.parse('{"allTagsPath":"/neuroreality/blog/tags","slug":"/neuroreality/blog/tags/hello","name":"hello","count":2,"permalink":"/neuroreality/blog/tags/hello"}')}}]);
