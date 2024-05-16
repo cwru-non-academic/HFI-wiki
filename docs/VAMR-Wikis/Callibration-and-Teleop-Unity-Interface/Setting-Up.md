@@ -104,4 +104,4 @@ if you are adding version control to an old project, these steps may be useful:
 <br />
 
 ##### Issues?
-Please report issues to [hfisoftware@case.edu]("hfisoftware@case.edu")
+Please report issues to *hfisoftware@case.edu*
