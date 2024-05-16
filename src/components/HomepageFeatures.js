@@ -4,32 +4,32 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Knowledge Sharing',
+    Svg: require('../../static/img/ONR-Ground-Robotics-hands.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Much like our Kinova Gen2 and the UR5 sharing the cube, this wiki makes
+        the sharing of HFI's knowledge base across teams possible.
       </>
     ),
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/laptop-code.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Why repeat the same mistakes as the last person? We know there is a lot out there
+        for you to experiment and fail with. Let this wiki help you with that.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Got Something for Us?',
+    Svg: require('../../static/img/teamwork.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Did you create something new? Did you find something missing in our wiki? 
+        Let us know! We are always looking to improve our knowledge base. All we need is a <code>Readme.md</code> file.
       </>
     ),
   },

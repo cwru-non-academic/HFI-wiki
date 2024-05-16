@@ -4,15 +4,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Human Fusions Institute - Wiki',
+  tagline: 'Because all good work starts with a good foundation',
   url: 'https://cwru-non-academic.github.io/',
-  baseUrl: '/neuroreality-edu/',
+  baseUrl: '/HFI-wiki/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/HFI-Logo.ico',
   organizationName: 'cwru-non-academic', // Usually your GitHub org/user name.
-  projectName: 'neuroreality-edu', // Usually your repo name.
+  projectName: 'HFI-wiki', // Usually your repo name.
 
   presets: [
     [
@@ -23,6 +23,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+
+          // remarkPlugins: [math],
+          // rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -37,28 +40,108 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ],
   ],
 
+
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'HFI Wiki',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'HFILogo',
+          src: 'img/HFI-Logo.png',
         },
         items: [
-          {
+          
+          {to: '/blog', label: 'Blog', position: 'left'},
+
+          {type: 'dropdown', position: 'left', label: 'Robotics Wiki' , items: [
+            
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'Kinova Gen3',
+            },
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'Franka Emika Panda',
+            },
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: '2 DOF Gimbal',
+            },
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'Zed Mini Camera',
+            },
+
+           ]},
+
+           {type: 'dropdown', position: 'left', label: 'VAMR Wiki' , items: [
+            
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'Wiki',
+            },
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'Wiki',
+            },
+
+           ]},
+
+           {type: 'dropdown', position: 'left', label: 'Communications Wiki' , items: [
+            
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'NeuroReality',
+            },
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'Common Data Library',
+            },
+
+           ]},
+
+           {type: 'dropdown', position: 'left', label: 'Stimulators Wiki' , items: [
+            
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'Stim Software',
+            },
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'Stim Hardware',
+            },
+
+           ]},
+
+           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'All Wikis',      //TO DO Change to right link
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+
+           {
+            type: 'doc',
+            docId: 'tutorial-basics/congratulations',
+            position: 'left',
+            label: 'Archived Wikis', //TO DO Change to right link
           },
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -74,37 +157,33 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
           {
-            title: 'Community',
+            title: 'External Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Human Fusions',
+                href: 'https://humanfusions.org/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Case Western Reserve University',
+                href: 'https://case.edu/humanfusions/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'University of California, Los Angeles',
+                href: 'https://biomechatronics.ucla.edu/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Contributors',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                label: 'S. M. Asjad',
+                href: 'https://www.linkedin.com/in/smasjad',
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Human Fusions Institute.`,
       },
       prism: {
         theme: lightCodeTheme,
