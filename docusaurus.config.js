@@ -76,6 +76,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             docId: 'intro',
             label: 'Zed Mini Camera',
             },
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'All Robotics Software'
+            }
 
            ]},
 
@@ -83,13 +88,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             
             {
               type: 'doc',
-            docId: 'intro',
-            label: 'Wiki',
+            docId: 'VAMR-Wikis/Callibration-and-Teleop-Unity-Interface/Setting-Up',
+            label: 'Callibration and Teleop Unity Interface',
             },
             {
               type: 'doc',
             docId: 'intro',
-            label: 'Wiki',
+            label: 'All VAMR Software',
             },
 
            ]},
@@ -106,6 +111,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             docId: 'intro',
             label: 'Common Data Library',
             },
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'All Communication Software',
+            },
 
            ]},
 
@@ -121,6 +131,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             docId: 'intro',
             label: 'Stim Hardware',
             },
+            {
+              type: 'doc',
+            docId: 'intro',
+            label: 'All Stimulators',
+            },
 
            ]},
 
@@ -133,7 +148,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
            {
             type: 'doc',
-            docId: 'tutorial-basics/congratulations',
+            docId: 'intro',
             position: 'left',
             label: 'Archived Wikis', //TO DO Change to right link
           },
@@ -179,6 +194,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 label: 'S. M. Asjad',
                 href: 'https://www.linkedin.com/in/smasjad',
+              },
+              {
+                label: 'Luis Mesias Flores',
+                href: 'https://case.edu/humanfusions/Luis%20Mesias%20Flores',
               }
             ],
           },

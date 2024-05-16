@@ -2,8 +2,4 @@
 sidebar_position: 1
 ---
 
-# Wiki Intro
-
-
-
-
+# Welcome to the VAMR Wikis
