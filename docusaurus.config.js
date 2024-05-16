@@ -197,7 +197,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'Luis Mesias Flores',
-                href: 'https://case.edu/humanfusions/Luis%20Mesias%20Flores',
+                href: 'https://www.linkedin.com/in/luis-mesias/',
               }
             ],
           },
