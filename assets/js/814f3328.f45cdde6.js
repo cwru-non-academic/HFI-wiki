@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkneuroreality_edu=self.webpackChunkneuroreality_edu||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First Ever HFI-Wiki Blog","permalink":"/HFI-wiki/blog/First Ever HFI-Wiki Blog"}]}')}}]);

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://cwru-non-academic.github.io/blog</id>
+    <id>https://cwru-non-academic.github.io/HFI-wiki/blog</id>
     <title>Human Fusions Institute - Wiki Blog</title>
     <updated>2024-05-16T18:14:22.636Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://cwru-non-academic.github.io/blog"/>
+    <link rel="alternate" href="https://cwru-non-academic.github.io/HFI-wiki/blog"/>
     <subtitle>Human Fusions Institute - Wiki Blog</subtitle>
-    <icon>https://cwru-non-academic.github.io/img/HFI-Logo.ico</icon>
+    <icon>https://cwru-non-academic.github.io/HFI-wiki/img/HFI-Logo.ico</icon>
     <entry>
         <title type="html"><![CDATA[First Ever HFI-Wiki Blog]]></title>
         <id>First Ever HFI-Wiki Blog</id>
-        <link href="https://cwru-non-academic.github.io/blog/First Ever HFI-Wiki Blog"/>
+        <link href="https://cwru-non-academic.github.io/HFI-wiki/blog/First Ever HFI-Wiki Blog"/>
         <updated>2024-05-16T18:14:22.636Z</updated>
         <summary type="html"><![CDATA[I wonder how it would be like when this wiki is complete 🤷‍♂️]]></summary>
     </entry>

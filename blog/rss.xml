@@ -2,14 +2,14 @@
 <rss version="2.0">
     <channel>
         <title>Human Fusions Institute - Wiki Blog</title>
-        <link>https://cwru-non-academic.github.io/blog</link>
+        <link>https://cwru-non-academic.github.io/HFI-wiki/blog</link>
         <description>Human Fusions Institute - Wiki Blog</description>
         <lastBuildDate>Thu, 16 May 2024 18:14:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[First Ever HFI-Wiki Blog]]></title>
-            <link>https://cwru-non-academic.github.io/blog/First Ever HFI-Wiki Blog</link>
+            <link>https://cwru-non-academic.github.io/HFI-wiki/blog/First Ever HFI-Wiki Blog</link>
             <guid>First Ever HFI-Wiki Blog</guid>
             <pubDate>Thu, 16 May 2024 18:14:22 GMT</pubDate>
             <description><![CDATA[I wonder how it would be like when this wiki is complete 🤷‍♂️]]></description>
