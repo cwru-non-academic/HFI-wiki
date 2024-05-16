@@ -1,58 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://cwru-non-academic.github.io/neuroreality-edu/blog</id>
-    <title>My Site Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <id>https://cwru-non-academic.github.io/HFI-wiki/blog</id>
+    <title>Human Fusions Institute - Wiki Blog</title>
+    <updated>2024-05-16T18:14:22.636Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://cwru-non-academic.github.io/neuroreality-edu/blog"/>
-    <subtitle>My Site Blog</subtitle>
-    <icon>https://cwru-non-academic.github.io/neuroreality-edu/img/favicon.ico</icon>
+    <link rel="alternate" href="https://cwru-non-academic.github.io/HFI-wiki/blog"/>
+    <subtitle>Human Fusions Institute - Wiki Blog</subtitle>
+    <icon>https://cwru-non-academic.github.io/HFI-wiki/img/HFI-Logo.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://cwru-non-academic.github.io/neuroreality-edu/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>mdx-blog-post</id>
-        <link href="https://cwru-non-academic.github.io/neuroreality-edu/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>long-blog-post</id>
-        <link href="https://cwru-non-academic.github.io/neuroreality-edu/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>first-blog-post</id>
-        <link href="https://cwru-non-academic.github.io/neuroreality-edu/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
-        </author>
+        <title type="html"><![CDATA[First Ever HFI-Wiki Blog]]></title>
+        <id>First Ever HFI-Wiki Blog</id>
+        <link href="https://cwru-non-academic.github.io/HFI-wiki/blog/First Ever HFI-Wiki Blog"/>
+        <updated>2024-05-16T18:14:22.636Z</updated>
+        <summary type="html"><![CDATA[I wonder how it would be like when this wiki is complete 🤷‍♂️]]></summary>
     </entry>
 </feed>
