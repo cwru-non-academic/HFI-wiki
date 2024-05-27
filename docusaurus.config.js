@@ -1,6 +1,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+
+
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
@@ -13,6 +15,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/HFI-Logo.ico',
   organizationName: 'cwru-non-academic', // Usually your GitHub org/user name.
   projectName: 'HFI-wiki', // Usually your repo name.
+  themes: ['@docusaurus/theme-live-codeblock'],
+
 
   presets: [
     [
@@ -58,7 +62,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             
             {
               type: 'doc',
-            docId: 'intro',
+            docId: 'Robotic-Wikis/Kinova-Gen3/Introduction',
             label: 'Kinova Gen3',
             },
             {
