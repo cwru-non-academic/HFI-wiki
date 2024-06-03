@@ -11,6 +11,8 @@ Welcome to the Kinova Gen3 Wiki. This wiki shall walk you through the steps of
 
 Upon completion, we will not be surprised if you find yourself with a robot that performs the fancy moves like the one below.
 
+<br />
+
 ![video](./kinova.gif)
 
 <br />
