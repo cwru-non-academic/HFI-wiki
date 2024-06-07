@@ -61,7 +61,7 @@ Since the device may join any COM/USB port, it is best to let the Operating Syst
 We want the user to be able to read and write on this COM/USB port but not have any outside user who is not running the driver to be able to access or modify its values. To achieve that type the following command in the terminal
 
 ```bash
-sudo nano ./udev/rules.d/89-dynamixel.rules 
+sudo nano /etc/udev/rules.d/89-dynamixel.rules 
 ```
 
 If the following lines do not exist within the file, add them to it.
@@ -83,7 +83,7 @@ As mentioned previously, to give our Dynamixel motors are static name, we shall 
 Type the following command in the terminal
 
 ```bash
-sudo nano ./udev/rules.d/99-USB-NAMES.rules 
+sudo nano /etc/udev/rules.d/99-USB-NAMES.rules 
 ```
 
 If the following lines do not exist within the file, append them to it.
@@ -101,7 +101,7 @@ KERNEL=="ttyUSB[0-9]", ATTRS{idProduct}=="6014", ATTRS{idVendor}=="0403", SYMLIN
 Linux is not a real-time Operating System and by default, it has a latency of 16ms for reading from serial. We can reconfigure Linux to reduce the latency to 1ms. Simply type the following command
 
 ```bash
-sudo nano ./udev/rules.d/49-USB-LATENCY.rules
+sudo nano /etc/udev/rules.d/49-USB-LATENCY.rules
 ```
 
 If the following lines do not exist, append within the file
