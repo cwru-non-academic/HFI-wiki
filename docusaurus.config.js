@@ -72,7 +72,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             },
             {
               type: 'doc',
-            docId: 'intro',
+            docId: 'Robotic-Wikis/Gimbal/Introduction',
             label: '2 DOF Gimbal',
             },
             {
