@@ -115,7 +115,7 @@ ATTR{latency_timer}="1"
 You can type the following command in a new terminal to see if the latency timer was updated.
 
 ```bash
-cat sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
 ```
 
 The output should be `1`
