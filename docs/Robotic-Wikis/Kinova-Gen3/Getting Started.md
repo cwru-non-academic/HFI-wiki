@@ -72,7 +72,7 @@ pip3 install Klampt
 One of the go to toolboxes for roboticists, Peter Corke's Robotic Toolbox serves as a vital component in our project too. If you have not already, I would suggest checking out their tutorial Jupyter notebooks [here](https://github.com/petercorke/robotics-toolbox-python). 
 ```bash
 pip3 install roboticstoolbox-python
-pip3 install spatialmath
+pip3 install spatialmath-python
 ```
 
 
