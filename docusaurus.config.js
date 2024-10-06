@@ -67,7 +67,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             },
             {
               type: 'doc',
-            docId: 'intro',
+            docId: 'Robotic-Wikis/Panda-Arm/Introduction',
             label: 'Franka Emika Panda',
             },
             {
